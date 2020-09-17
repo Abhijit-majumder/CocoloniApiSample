@@ -66,7 +66,7 @@ class FirstFragment : Fragment() {
             val headers = HashMap<String, String>()
             headers["Content-Type"] = "application/json"
             //val credentials:String = "username:password"
-            val auth = "Basic UmFrdXRlbkxpbms6RTJiZEh4OE4="
+            val auth = "Basic"
             headers["Authorization"] = auth
             return headers
         }
